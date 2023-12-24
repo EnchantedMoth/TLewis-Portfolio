@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --dark: black;
+    --light: white;
+}
+
+body {
+    background-color: rgb(147, 146, 148);
+    border: 5px;
+    
+    border-style: solid;
+    border-color: var(--dark);
+}
+
+.header {
+    font-family: 'Fredericka the Great', serif;
+    color: var(--light);
+    text-shadow: 1px 1px 8px var(--dark);
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/Trees\ and\ clouds.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+header h1 {
+    padding-top: 3%;
+    margin-left: 25%;
+    display: block;
+    font-size: 80px;
+    font-weight: 200;
+}
+
+header h1 .lewis {
+    margin-right: 35%;
+    float: right;
+}
+/* need to figure out how to get this to sit on bottom of the header */
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 599;
+    text-decoration: underline;
+}
+
+main {
+    border-top: 5px;
+    border-style: solid;
+    border-color: var(--dark);
+}
+h2, h3, h4 {
+    font-family: 'Fredericka the Great', serif;
+    color: var(--dark);
+    font-size: 30px
+
+}
+#picofme {
+    border-radius: 25px;
+    max-height: 200px;
+}
+
+.MyWork {
+    display: flex;
+    justify-content: flex-start;
+}
