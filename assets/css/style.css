@@ -22,7 +22,7 @@ body {
     text-shadow: 1px 1px 8px var(--dark);
     height: 300px;
     width: 100%;
-    background-image: url("../images/Trees\ and\ clouds.png");
+    background-image: url("../images/Trees-and-clouds-centered.png");
     background-size: cover;
     background-position: center;
 
@@ -30,14 +30,14 @@ body {
 
 header h1 {
     padding-top: 50px;
-    margin-left: 25%;
+    margin-left: 31%;
     display: block;
     font-size: 80px;
     font-weight: 200;
 }
 
 header h1 .lewis {
-    margin-right: 32%;
+    margin-right: 30%;
     float: right;
 }
 
