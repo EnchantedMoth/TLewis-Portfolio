@@ -22,20 +22,27 @@
         </nav>
     </header>
     <Main>
-        <h2 class="sidebar">About Me</h2>
+        <!-- figure out sidebar by putting it not on a header. -->
+        <aside class="sidebar">
+            <h2>About Me</h2>
+        </aside>
             <section class="AboutMe">
                 <!-- about me goes here -->
 
                 <img id="picofme" src="./assets/images/Me-and-baby-tanji.jpg" alt="A picture of me with my cat">
                 <p>I'm Tim. Life long gamer new web developer. (more stuff about myself goes here)</p>
             </section>
-        <h3 class="sidebar">My Work</h3>
+            <aside class="sidebar"> 
+                <h3>My Work</h3>
+            </aside>
             <section class="MyWork">
                 
                 <!-- work goes here -->
-                <article>
-                    <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
-                    <p>Describe this work here</p>
+                <article class=main-project>
+                    <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud"
+                    width="80%" height="750px">
+                    <p>Describe this work here
+                    </p>
                 </article>
                 <article>
                     <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
@@ -50,16 +57,19 @@
                     <p>Describe this work here</p>
                 </article>
             </section>
-        <section>
+        
 
             <!-- contact me goes here -->
+        <aside class="sidebar">
             <h4>Contact Me</h4>
+        </aside>
+            <section>
                 <ul>
                     <li id="email"><strong>Email:</strong> <a href="timothy.james.lewis.31@gmail.com">timothy.james.lewis.31@gmail.com</a></li>
 
                     <li id="github"><strong>Github:</strong> <a href="https://github.com/EnchantedMoth">EnchantedMoth</a></li>
                 </ul>
-        </section>
+            </section>
     </Main>
     
 </body>
