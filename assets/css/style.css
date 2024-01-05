@@ -57,61 +57,124 @@ header li{
 }
 
 main {
-    border-top: 5px;
+    /* border-top: 5px;
     border-style: solid;
     border-color: var(--dark);
-}
-main section {
-    padding-left: 150px;
+    display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: baseline; */
 }
 
-.AboutMe {
+.container{
     display: flex;
+    display: wrap;
+}
+
+
+aside{
+    /* display: flex;  
+    flex-wrap: wrap; */
+    /* width: 140px; */
+    /* margin-right: 3px;
+    border-right: dashed 3px;
+    border-color: var(--dark); */
+    /* border-right: 3px;
+    border-style: ;
+    border-color: black; */
+}
+
+
+
+.AboutMe {
     align-items: center;
-    flex-direction: column;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; */
+
 }
 
 main section article {
-    padding: 10px;
+    /* padding: 10px; */
 
 }
 
+main section div{
+
+}
 .MyWork {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 .main-project {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 80%;
-
+    min-width: 80%; */
+    padding-left: 16.5%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    min-width: 100%;
 }
 
 .main-project img {
-    min-width: 80%;
-    max-height: 75%;
+    /* min-width: 80%;
+    max-height: 75%; */
 }
 h2, h3, h4 {
     margin-top: 10px;
     font-family: 'Fredericka the Great', serif;
     color: var(--dark);
     font-size: 30px;
+    width: 140px;
 
 }
+
+
+#picofme {
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: right; */
+    /* flex-wrap: wrap; */
+    border-radius: 25px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+main section div{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 150px; 
+     border-left: 3px;
+    border-style: solid;
+    border-color: var(--dark); 
+    float: right;
+    width: 80%;  */
+ }
 
 /* How can I make a right border all the way down the page? */
 .sidebar {
-    width: 140px;
-    margin-right: 3px;
-    border-right: dashed 3px;
-    border-bottom: solid 3px;
-    border-color: var(--dark);
-}
-#picofme {
-    border-radius: 25px;
-    max-height: 200px;
+    /* display: flex;
+    float: left;
+    width: 140px; */
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-right: 3px solid var(--dark);
+    justify-content: space-between;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
