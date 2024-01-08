@@ -90,6 +90,8 @@ main section div{
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .main-project {
     padding-left: 16.5%;
@@ -100,15 +102,23 @@ main section div{
 }
 
 .main-project img {
-
+    
 }
-h2, h3, h4 {
+h2, h4 {
     margin-top: 10px;
     font-family: 'Fredericka the Great', serif;
     color: var(--dark);
     font-size: 30px;
-    width: 140px;
 
+}
+
+h3 {
+    position: absolute;
+    top: 570px;
+    left: 0;
+    font-family: 'Fredericka the Great', serif;
+    color: var(--dark);
+    font-size: 30px;
 }
 
 
@@ -138,4 +148,5 @@ main section div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 15px;
 }
