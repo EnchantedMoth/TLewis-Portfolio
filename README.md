@@ -29,6 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## given mock-up
 
+    [Mock-up Demo](/assets/images/02-advanced-css-homework-demo.gif)
   <!-- add given mock up-->
 
 ## My site
