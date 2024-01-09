@@ -27,12 +27,13 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## given mock-up
+## Given Mock-Up
 
-    [Mock-up Demo](/assets/images/02-advanced-css-homework-demo.gif)
+![Mock-up Demo](/assets/images/02-advanced-css-homework-demo.gif)
   <!-- add given mock up-->
 
-## My site
+## My Site
+![MyPortfolioDemo](/assets/images/My-Portfolio-1.gif)
    <!-- add my gif or screenshot -->
   [My Portfolio](https://enchantedmoth.github.io/TLewis-Portfolio/)
   
