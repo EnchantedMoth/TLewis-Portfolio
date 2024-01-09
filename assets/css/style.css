@@ -6,6 +6,7 @@
 :root {
     --dark: black;
     --light: white;
+    
 }
 
 body {
@@ -56,62 +57,129 @@ header li{
     text-decoration: underline;
 }
 
-main {
-    border-top: 5px;
-    border-style: solid;
-    border-color: var(--dark);
+a{
+    color: var(--light);
 }
-main section {
-    padding-left: 150px;
+
+/* main {
+
+}
+
+aside{
+
+} */
+
+.container{
+    display: flex;
+    display: wrap;
 }
 
 .AboutMe {
-    display: flex;
     align-items: center;
-    flex-direction: column;
+    width: 100%;
+    font-family: sans-serif, serif;
+    border-left: 7px solid var(--dark);
 }
 
-main section article {
-    padding: 10px;
+/* main section article {
 
 }
 
+main section div{
+
+} */
 .MyWork {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-left: 7px solid var(--dark);
+    font-family: sans-serif, serif;
 }
 .main-project {
-    display: flex;
-    flex-direction: column;
+    padding-left: 16.5%;
     align-items: center;
-    min-width: 80%;
-
+    align-content: center;
+    min-width: 100%;
 }
 
-.main-project img {
-    min-width: 80%;
-    max-height: 75%;
+.MyWork img {
+    margin-top: 15px;
 }
-h2, h3, h4 {
+
+h2, h4 {
     margin-top: 10px;
     font-family: 'Fredericka the Great', serif;
     color: var(--dark);
     font-size: 30px;
-
+    font-weight: 600;
+    padding-bottom: 35px;
 }
 
-/* How can I make a right border all the way down the page? */
-.sidebar {
-    width: 140px;
-    margin-right: 3px;
-    border-right: dashed 3px;
-    border-bottom: solid 3px;
-    border-color: var(--dark);
+h3 {
+    position: absolute;
+    top: 570px;
+    left: 0;
+    font-family: 'Fredericka the Great', serif;
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 600;
 }
+
+
 #picofme {
     border-radius: 25px;
     max-height: 200px;
+    max-width: 200px;
 }
 
+main section div{
+
+ }
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.contactMe {
+    margin-top: 15px;
+    width: 100%;
+    min-height: 100px;
+    border-left: 7px solid var(--dark);
+}
+
+.contactList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    font-family: sans-serif, serif;
+}
+
+.contactList a{
+    color: var(--dark);
+}
+
+div ul{
+    
+    list-style: none;
+    font-size: 20px;
+}

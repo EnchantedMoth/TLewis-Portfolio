@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TLewis Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,62 +15,94 @@
         <h1>Tim<span class="lewis">Lewis</span></h1>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <Main>
+    <Main class="container">
         <!-- figure out sidebar by putting it not on a header. -->
-        <aside class="sidebar">
-            <h2>About Me</h2>
-        </aside>
-            <section class="AboutMe">
-                <!-- about me goes here -->
-
-                <img id="picofme" src="./assets/images/Me-and-baby-tanji.jpg" alt="A picture of me with my cat">
-                <p>I'm Tim. Life long gamer new web developer. (more stuff about myself goes here)</p>
-            </section>
-            <aside class="sidebar"> 
-                <h3>My Work</h3>
+        <div class="sidebar">
+            
+            <aside class=>
+                <h2>About Me</h2>
             </aside>
-            <section class="MyWork">
-                
-                <!-- work goes here -->
-                <article class=main-project>
-                    <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud"
-                    width="80%" height="750px">
-                    <p>Describe this work here
-                    </p>
-                </article>
-                <article>
-                    <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
-                    <p>Describe this work here</p>
-                </article>
-                <article>
-                    <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
-                    <p>Describe this work here</p>
-                </article>
-                <article>
-                    <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
-                    <p>Describe this work here</p>
-                </article>
+
+
+
+            <aside class=>
+                <h4>Contact Me</h4>
+            </aside>
+
+        </div>
+        <div class="content">
+            <section id="about" class="AboutMe">
+
+
+                <!-- about me goes here -->
+                    <div class="content">
+                        <img id="picofme" src="./assets/images/Me-and-baby-tanji.jpg" alt="A picture of me with my cat">
+                        <p>I'm Tim. Life long gamer new web developer. (more stuff about myself goes here)</p>
+                    </div>
+                    
+            </section>
+        
+            <section >
+
+
+
+                <div id="work" class="MyWork">
+                    <aside class=> 
+                        <h3>My Work</h3>
+                    </aside>
+
+                    <!-- work goes here -->
+                    <article class=main-project>
+                        <a href="https://enchantedmoth.github.io/horiseon-accesability-update/">
+                        <img src="assets/images/Horiseon.gif" alt="placholder of a cloud"
+                        width="80%" height="80%">
+                        </a>
+                        <p>First class project where we had the goal of adding accesability to the code.
+                        </p>
+                    </article>
+
+                    <article>
+                        <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
+                        <p>(Describe this work here)</p>
+                    </article>
+
+                    <article>
+                        <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
+                        <p>(Describe this work here)</p>
+                    </article>
+
+                    <article>
+                        <img src="./assets/images/500x500-placeholder-img.jpg" alt="placholder of a cloud">
+                        <p>(Describe this work here)</p>
+                    </article>
+
+                </div>
+
             </section>
         
 
             <!-- contact me goes here -->
-        <aside class="sidebar">
-            <h4>Contact Me</h4>
-        </aside>
-            <section>
-                <ul>
-                    <li id="email"><strong>Email:</strong> <a href="timothy.james.lewis.31@gmail.com">timothy.james.lewis.31@gmail.com</a></li>
+        
+            <section id="contact" class="contactMe">
+                
 
-                    <li id="github"><strong>Github:</strong> <a href="https://github.com/EnchantedMoth">EnchantedMoth</a></li>
-                </ul>
+
+                <div class="contactList">
+                    <ul>
+                        <li id="email"><strong>Email:</strong> <a href="mailto:timothy.james.lewis.31@gmail.com">timothy.james.lewis.31@gmail.com</a></li>
+                        <br>
+                        <li id="github"><strong>Github:</strong> <a href="https://github.com/EnchantedMoth">EnchantedMoth</a></li>
+                    </ul>
+                </div>
             </section>
+        </div>
     </Main>
     
 </body>
