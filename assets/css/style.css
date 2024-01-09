@@ -6,6 +6,7 @@
 :root {
     --dark: black;
     --light: white;
+    
 }
 
 body {
@@ -56,60 +57,68 @@ header li{
     text-decoration: underline;
 }
 
-main {
+a{
+    color: var(--light);
+}
+
+/* main {
 
 }
+
+aside{
+
+} */
 
 .container{
     display: flex;
     display: wrap;
 }
 
-
-aside{
-
-}
-
-
-
 .AboutMe {
     align-items: center;
-
+    width: 100%;
+    font-family: sans-serif, serif;
+    border-left: 7px solid var(--dark);
 }
 
-main section article {
+/* main section article {
 
 }
 
 main section div{
 
-}
+} */
 .MyWork {
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    margin-top: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 100%;
+    border-left: 7px solid var(--dark);
+    font-family: sans-serif, serif;
 }
 .main-project {
     padding-left: 16.5%;
-    justify-content: space-around;
     align-items: center;
     align-content: center;
     min-width: 100%;
 }
 
-.main-project img {
-    
+.MyWork img {
+    margin-top: 15px;
 }
+
 h2, h4 {
     margin-top: 10px;
     font-family: 'Fredericka the Great', serif;
     color: var(--dark);
     font-size: 30px;
-
+    font-weight: 600;
+    padding-bottom: 35px;
 }
 
 h3 {
@@ -119,6 +128,7 @@ h3 {
     font-family: 'Fredericka the Great', serif;
     color: var(--dark);
     font-size: 30px;
+    font-weight: 600;
 }
 
 
@@ -132,12 +142,11 @@ main section div{
 
  }
 
-/* How can I make a right border all the way down the page? */
+
 .sidebar {
     display: flex;
     flex-direction: column;
     width: 150px;
-    border-right: 3px solid var(--dark);
     justify-content: space-between;
 }
 
@@ -149,4 +158,28 @@ main section div{
     align-items: center;
     flex-direction: column;
     padding-top: 15px;
+}
+.contactMe {
+    margin-top: 15px;
+    width: 100%;
+    min-height: 100px;
+    border-left: 7px solid var(--dark);
+}
+
+.contactList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    font-family: sans-serif, serif;
+}
+
+.contactList a{
+    color: var(--dark);
+}
+
+div ul{
+    
+    list-style: none;
+    font-size: 20px;
 }
